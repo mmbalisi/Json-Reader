@@ -1,0 +1,18 @@
+﻿<Window x:Class="TVLICT201.JSONReader.Windows.Ship.ShipWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TVLICT201.JSONReader.Windows.Ship"
+        mc:Ignorable="d"
+        Title="ShipWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblTitle" Content="Ship" HorizontalAlignment="Left" Height="33" Margin="10,10,0,0" VerticalAlignment="Top" Width="112" FontFamily="Broadway" FontSize="22"/>
+        <Label x:Name="lblShipId" Content="Label" HorizontalAlignment="Left" Height="44" Margin="10,48,0,0" VerticalAlignment="Top" Width="418" FontFamily="NSimSun" FontSize="14"/>
+        <Label x:Name="lblShipRegistry" Content="Label" HorizontalAlignment="Left" Height="44" Margin="10,97,0,0" VerticalAlignment="Top" Width="418" FontFamily="NSimSun" FontSize="14"/>
+        <Label x:Name="lblShipName" Content="Label" HorizontalAlignment="Left" Height="44" Margin="10,146,0,0" VerticalAlignment="Top" Width="418" FontFamily="NSimSun" FontSize="14"/>
+        <Label x:Name="lblShipClass" Content="Label" HorizontalAlignment="Left" Height="44" Margin="10,195,0,0" VerticalAlignment="Top" Width="418" FontFamily="NSimSun" FontSize="14"/>
+        <Label x:Name="lblShipService" Content="Label" HorizontalAlignment="Left" Height="44" Margin="10,244,0,0" VerticalAlignment="Top" Width="418" FontFamily="NSimSun" FontSize="14"/>
+
+    </Grid>
+</Window>
